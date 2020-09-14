@@ -1,0 +1,45 @@
+.right-col,.left-col{
+  background-color: #263238 !important;
+  height: 93vh !important;
+}
+
+.profile-picture{
+  height: 150px !important;
+  width: 150px !important;
+  margin-top: -5em !important;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #4a148c;
+  border-color: #4a148c;
+  float: right;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color: #4a148c;
+  border-color: #4a148c;
+  float: right;
+}
+
+.post-profile-picture{
+  height: 65px !important;
+  width: 65px !important;
+}
+
+.text-purple{
+  color: #4a148c;
+}
+
+.posts {
+  height: 80vh;
+}
+
+.post-date{
+  font-size: 0.8em;
+}
+
+.posts::-webkit-scrollbar {
+  display: none;
+}
