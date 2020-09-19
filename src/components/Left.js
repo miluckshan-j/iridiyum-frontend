@@ -1,8 +1,8 @@
 import React from 'react';
 import MyGroupItem from './MyGroupItem';
-import '../css/HomeLeft.css';
+import '../css/Left.css';
 
-function HomeLeft() {
+function Left() {
   return (
     <div className="col-2 mh-100 left-col text-white p-0">
       <img src="./banner.jpg" className="img-fluid" alt="Banner" />
@@ -25,4 +25,4 @@ function HomeLeft() {
   );
 }
 
-export default HomeLeft;
+export default Left;

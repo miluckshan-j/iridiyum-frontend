@@ -1,0 +1,8 @@
+.banner {
+  width: 100%;
+  min-height: 30em;
+  background: url('../images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}

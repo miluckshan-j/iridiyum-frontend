@@ -1,0 +1,78 @@
+
+  html, body{
+    overflow-x: hidden !important;
+  }
+
+  .header-bg{
+    background-color: #4a148c !important;
+  }
+
+  .right-col,.left-col{
+    background-color: #263238 !important;
+    height: 129vh !important;
+  }
+
+
+  .btn-purple {
+    color: #fff;
+    background-color: #4a148c;
+    border-color: #4a148c;
+  }
+
+  .btn-purple:hover {
+    color: #fff;
+    background-color: #4a148c;
+    border-color: #4a148c;
+  }
+
+  .post-profile-picture{
+    height: 65px !important;
+    width: 65px !important;
+  }
+
+  .text-purple{
+    color: #4a148c;
+  }
+
+  .posts {
+    height: 80vh;
+  }
+
+  .post-date{
+    font-size: 0.8em;
+  }
+
+  .posts::-webkit-scrollbar {
+    display: none;
+  }
+
+  .banner {
+    width: 100%;
+    min-height: 30em;
+    background: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+  }
+
+  .profile-col-left{
+    margin-top: -15.8em;
+  }
+
+  .profile-picture-actions{
+    z-index: 10;
+    position: relative;
+  }
+
+  .profile-picture{
+    margin-top: -1.6em;
+  }
+
+  .bio{
+    background-color: transparent;
+    border: none;
+    margin-left: 1.4em;
+    margin-right: auto !important;
+    color: white;
+    font-weight: lighter;
+  }
