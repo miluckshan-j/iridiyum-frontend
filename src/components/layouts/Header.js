@@ -1,6 +1,15 @@
 import React from 'react';
+import { createSelector } from 'reselect';
+import { useSelector } from 'react-redux';
 
-function Header() {
+const getAuthStatus = createSelector(
+  (state) => state.auth,
+  (auth) => auth.user,
+);
+
+const Header = () => {
+  const user = useSelector(getAuthStatus);
+
   const headerBg = {
     backgroundColor: "#4a148c"
   }
@@ -20,7 +29,7 @@ function Header() {
           </div>
           <div className="col-2">
             <div className="list-inline">
-              <p className="list-inline-item text-white mb-0">Miluckshan Jalangan</p>
+              <p className="list-inline-item text-white mb-0">{user.name}</p>
               <a href="#" className="float-right">⚙️</a>
             </div>
           </div>

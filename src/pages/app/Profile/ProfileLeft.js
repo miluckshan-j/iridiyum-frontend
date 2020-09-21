@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/ProfileLeft.css';
+import '../../../styles/ProfileLeft.css';
 
 function ProfileLeft() {
   return (
@@ -10,7 +10,7 @@ function ProfileLeft() {
       </div>
       <img src="profile-picture.jpg" className="img-fluid profile-picture" alt="Banner" />
       <p className="h6 font-weight-bold mt-3 text-center">Bio 🖊️</p>
-      <textarea type="textarea" name="bio" id="bio" className="bio" maxlength="250" rows="6" value="LOLOL" />
+      <textarea type="textarea" name="bio" id="bio" className="bio" maxLength="250" rows="6" value="LOLOL" />
     <hr />
     <div className="group px-3">
       <div className="group-title">
