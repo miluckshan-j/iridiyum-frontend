@@ -47,7 +47,7 @@ function Posts(props) {
               <p className="mb-0 text-muted post-date">{date.toLocaleDateString()}</p>
             </div>
             {
-              user.id === item.user_id
+              (user && user.id === item.user_id)
               && (
                 <>
                   <span onClick={_toggleDeleteModal} role="img" aria-label="delete" className="float-right px-1 cursor">❌</span>

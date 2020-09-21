@@ -1,0 +1,36 @@
+.header-bg{
+  background-color: #4a148c !important;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #4a148c;
+  border-color: #4a148c;
+  float: right;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color: #4a148c;
+  border-color: #4a148c;
+  float: right;
+}
+
+.text-purple{
+  color: #4a148c;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
